@@ -1,6 +1,6 @@
 # Synesthesia Scripts
 
-Built with Node.js and TypeScript because that's what I'm into. No external dependencies except TypeScript definitions.
+Code generation utilities for developing Synesthesia scenes. Built with Node.js and TypeScript because that's what I'm into. No external dependencies except TypeScript definitions.
 
 ## ISF to SSF (Synesthesia Shader Format)
 
@@ -15,7 +15,13 @@ Please don't try to load thousands of scenes into Synesthesia before or during a
 
 * [SSF Documentation](https://synesthesia.live/docs/ssf/ssf.html)
 * [ISF Spec](https://github.com/mrRay/ISF_Spec/)
+* [Synesthesia Resources](https://synesthesia.live/docs/resources/syn_resources.html)
+* [Synesthesia's GLSL Resources](https://synesthesia.live/docs/resources/glsl_resources.html)
 * [Sheltron's GLSL Resources](https://nshelton.github.io/resources/)
+
+### Tutorials
+
+* [How To Add A Slider In Synesthesia](https://ufffd.com/shader-shop/how-to-add-a-slider-in-synesthesia/)
 
 ### Shaders
 
