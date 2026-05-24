@@ -24,7 +24,7 @@ const WIDTH = 1920;
         // trim new lines
         shaderContent = shaderContent.replace(/}[\s\r\n]+\*\//g, "}*/");
         let shaderJsonEnd = shaderContent.indexOf("}*/");
-        if (shaderJsonEnd === -1) shaderJsonEnd = shaderContent.indexOf("}\n*/");
+        if (shaderJsonEnd === -1) shaderJsonEnd = shaderContent.indexOf("}*/");
         if (shaderJsonEnd > -1) {
             try {
                 shaderJsonContent = shaderContent.trim().substring(2, shaderJsonEnd);
