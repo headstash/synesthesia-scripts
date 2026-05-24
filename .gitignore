@@ -4,3 +4,57 @@ output*
 input/*
 .input/*
 .env*
+
+# large binary / media — never commit these
+# audio
+*.mp3
+*.mp4
+*.m4a
+*.m4v
+*.aac
+*.flac
+*.wav
+*.ogg
+*.opus
+*.wma
+*.aiff
+*.aif
+# video
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wmv
+*.flv
+*.mpg
+*.mpeg
+*.m2ts
+# archives / installers
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tar.xz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+*.dmg
+*.iso
+*.img
+# compiled / native binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.node
+*.bin
+*.out
+# sdk / vendor blobs
+*_SDK_*
+*Install_*
+*-x86_64-*
+*-aarch64-*
+*-arm-*
